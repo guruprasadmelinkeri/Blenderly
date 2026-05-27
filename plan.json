@@ -1,0 +1,52 @@
+[
+{
+"action": "double_click_text",
+"value": "Brave"
+},
+{
+"action": "wait",
+"value": 4
+},
+{
+"action": "hotkey",
+"value": ["ctrl", "l"]
+},
+{
+"action": "type_text",
+"value": "youtube.com"
+},
+{
+"action": "press_key",
+"value": "enter"
+},
+{
+"action": "wait",
+"value": 5
+},
+{
+"action": "click_text",
+"value": "Search"
+},
+{
+"action": "type_text",
+"value": "Lush Life"
+},
+{
+"action": "press_key",
+"value": "enter"
+},
+{
+"action": "wait",
+"value": 5
+},
+{
+"action": "find_in_region_and_click",
+"target_text": "Lush Life",
+"region": [0, 200, 1920, 880],
+"offset_x": -250,
+"offset_y": 0
+}
+]
+
+
+it is missing the search bar fucntion again
